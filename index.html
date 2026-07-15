@@ -11,51 +11,138 @@
   .updated { color: #666; font-size: 0.9rem; margin-top: 0; }
   h2 { margin-top: 1.6rem; }
   code { background: #f2f2f2; padding: 0 0.3em; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: 0.5rem 0.6rem; text-align: left; vertical-align: top; font-size: 0.95rem; }
+  th { background: #f7f7f7; }
 </style>
 </head>
 <body>
 <h1>Privacy Policy for RUNEGUN</h1>
-<p class="updated">Last updated: 14 June 2026</p>
+<p class="updated">Last updated: 15 July 2026</p>
 
 <p>This Privacy Policy explains how the mobile game <strong>RUNEGUN</strong>
-("the App", "we", "us") handles information. RUNEGUN is a single-player,
-offline arena game. Our approach is simple: <strong>we do not collect,
-transmit, or share any personal data.</strong></p>
+("the App", "we", "us") handles information. RUNEGUN is a single-player arena
+game. We do not operate any servers of our own and we do not receive your
+personal data ourselves. However, the App includes two Google services &mdash;
+<strong>Google AdMob</strong> (advertising) and <strong>Google Play Games
+Services</strong> (leaderboards and achievements) &mdash; and those services do
+collect and transmit data, as described below.</p>
 
-<h2>Information We Collect</h2>
-<p><strong>None.</strong> RUNEGUN does not collect, store on our servers, or
-transmit any personal or sensitive user data. We have no servers and the App
-makes no network connections.</p>
+<h2>Summary</h2>
+<table>
+  <tr><th>What</th><th>Who receives it</th><th>Why</th></tr>
+  <tr>
+    <td>Advertising ID, IP address, device and OS information, ad interaction data</td>
+    <td>Google (AdMob) and its advertising partners</td>
+    <td>To show and measure ads</td>
+  </tr>
+  <tr>
+    <td>Play Games player ID, display name, scores, achievement unlocks</td>
+    <td>Google (Play Games Services) &mdash; only if you sign in</td>
+    <td>Leaderboards and achievements</td>
+  </tr>
+  <tr>
+    <td>Game progress and settings</td>
+    <td>No one &mdash; stays on your device</td>
+    <td>To save your game</td>
+  </tr>
+</table>
+
+<h2>Advertising (Google AdMob)</h2>
+<p>The App shows ads supplied by <strong>Google AdMob</strong>: a full-screen ad
+after some runs end, and an optional "watch an ad to continue" ad that you choose
+to start. To serve and measure those ads, Google collects information from your
+device, which may include:</p>
+<ul>
+  <li>your device's <strong>advertising identifier</strong> (the App requests the
+      <code>AD_ID</code> permission for this);</li>
+  <li>your IP address, device model, operating system version, and coarse
+      location inferred from your IP address;</li>
+  <li>information about the ads you are shown and interact with;</li>
+  <li>data used by Android's Privacy Sandbox advertising APIs (the App's release
+      build declares <code>ACCESS_ADSERVICES_AD_ID</code>,
+      <code>ACCESS_ADSERVICES_TOPICS</code> and
+      <code>ACCESS_ADSERVICES_ATTRIBUTION</code>).</li>
+</ul>
+<p>This data is collected by Google, not by us &mdash; we never see it. Google may
+use it to personalise ads and to measure ad performance, and may share it with its
+advertising partners. Google's handling of this data is governed by the
+<a href="https://policies.google.com/technologies/partner-sites">Google Privacy &amp;
+Terms</a> and the
+<a href="https://support.google.com/admob/answer/6128543">AdMob policies</a>.</p>
+
+<h2>Leaderboards and Achievements (Google Play Games Services)</h2>
+<p>The App offers online leaderboards and an achievement through
+<strong>Google Play Games Services</strong>. This is optional: if you decline the
+Play Games sign-in, or your device has no Play Games support, the online features
+are simply switched off and nothing is transmitted. Your personal best records are
+kept on your device either way.</p>
+<p>If you <strong>are</strong> signed in, the App sends the following to Google:</p>
+<ul>
+  <li>your Play Games <strong>player ID</strong> and <strong>display name</strong>;</li>
+  <li>your best score, submitted to the leaderboard at the end of a run;</li>
+  <li>an achievement unlock, if you defeat the void boss.</li>
+</ul>
+<p><strong>Please note that leaderboards are public.</strong> If you submit a score,
+your Play Games display name and that score can be seen by other players viewing
+the leaderboard, both inside the App and in the Play Games app. Your Play Games
+display name is controlled by you in your Google account settings, not by us.</p>
+<p>Play Games Services data is handled by Google under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>Data Stored on Your Device</h2>
-<p>The App saves your game progress &mdash; such as your souls balance,
-unlocked characters and skins, and settings like volume &mdash; locally on
-your device using your browser/WebView's local storage. This information:</p>
+<p>The App saves your game progress &mdash; your souls balance, unlocked
+characters, skins and pets, your bestiary and rune glossary, your personal best
+records, and settings such as volume and control layout &mdash; locally on your
+device using the WebView's local storage. This information:</p>
 <ul>
   <li>never leaves your device;</li>
-  <li>is not transmitted to us or any third party;</li>
+  <li>is not transmitted to us;</li>
   <li>is not personal or identifying;</li>
   <li>can be cleared at any time by clearing the App's data or uninstalling the App.</li>
 </ul>
+<p>Note that clearing the App's data permanently erases your progress, because we
+hold no copy of it.</p>
 
-<h2>No Ads, Analytics, or Tracking</h2>
-<p>RUNEGUN contains <strong>no advertising</strong>, <strong>no analytics</strong>,
-and <strong>no third-party tracking SDKs</strong>. We do not use an advertising
-identifier and do not track you across apps or websites.</p>
+<h2>Your Choices</h2>
+<ul>
+  <li><strong>Ad personalisation:</strong> you can reset or delete your advertising
+      ID, and opt out of ad personalisation, in your Android settings under
+      <em>Settings &rarr; Privacy &rarr; Ads</em>. Ads will still appear, but will be
+      less relevant.</li>
+  <li><strong>Leaderboards:</strong> decline the Play Games sign-in, or sign out in
+      the Play Games app, and no score or profile data is sent. You can also delete
+      your Play Games data for this game from within the Play Games app.</li>
+  <li><strong>Local data:</strong> clear the App's storage or uninstall the App.</li>
+</ul>
 
 <h2>Permissions</h2>
-<p>The App does not request access to your location, camera, microphone,
-contacts, photos, or files. It reads your device's general browser/user-agent
-information only on-device to enable touch controls; this is not stored or sent
-anywhere.</p>
+<p>The App does not request access to your location, camera, microphone, contacts,
+photos, or files. Its release build declares:</p>
+<ul>
+  <li><code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> &mdash; to load ads
+      and reach Play Games Services;</li>
+  <li><code>AD_ID</code> and the Privacy Sandbox advertising permissions &mdash; used
+      by Google's ads SDK, as described above;</li>
+  <li><code>VIBRATE</code> &mdash; for the haptic pulses on combat hits, which you can
+      turn off in the App's settings. This collects no data.</li>
+</ul>
 
 <h2>Children's Privacy</h2>
-<p>RUNEGUN does not collect any data from anyone, including children under the
-age of 13. We do not knowingly collect personal information from children.</p>
+<p>RUNEGUN is not directed to children under the age of 13, and we do not knowingly
+collect personal information from children. Because the App serves ads through
+Google AdMob and those ads involve the collection of an advertising identifier, the
+App is intended for a general audience aged 13 and over. If you believe a child has
+provided information through the App, please contact us at the address below.</p>
+
+<h2>Data Retention</h2>
+<p>We retain no data ourselves, because we receive none. Data collected by Google
+through AdMob and Play Games Services is retained by Google according to its own
+policies, linked above.</p>
 
 <h2>Changes to This Policy</h2>
-<p>If this policy changes, the updated version will be posted at this same
-address with a revised "Last updated" date.</p>
+<p>If this policy changes, the updated version will be posted at this same address
+with a revised "Last updated" date.</p>
 
 <h2>Contact</h2>
 <p>If you have any questions about this Privacy Policy, contact us at:
